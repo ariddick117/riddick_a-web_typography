@@ -12,7 +12,7 @@ p
 .container
 {
 	width: 1248px;
-	height: 2000px;
+	height: 2460px;
 	margin: 0 auto;
 	background-color: #fff;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -104,7 +104,7 @@ p
 .tasks
 {
 	width: 1080px;
-	height: 417px;
+	height: 750px;
 	margin: 0 auto;
 	padding-top: 40px;
 }
@@ -149,5 +149,38 @@ p
 	margin-bottom: 17px;
 	height: 5px;
 	width: 248px;
-	background-color: #A7BF4E;
+	background-color: #657334;
+}
+
+.pImage
+{
+	width: 410px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.pImageTrio
+{
+	width: 350px;
+	display: inline-flex;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* TEXT ELEMENTS */
+
+.dropCap
+{
+	color: #A7BF4E;
+ 	float: left;
+ 	font-family: Georgia;
+ 	font-size: 75px;
+ 	line-height: 60px;
+ 	padding-top: 4px;
+ 	padding-right: 8px;
+ 	padding-left: 3px;
 }
