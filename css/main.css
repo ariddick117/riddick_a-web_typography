@@ -99,6 +99,7 @@ p
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
+	font-family: 'Arvo', serif;
 }
 
 .tasks
@@ -114,6 +115,7 @@ p
 	font-size: 24px;
 	font-weight: bold;
 	text-align: center;
+	font-family: 'Arvo', serif;
 }
 
 .tasks ul
@@ -140,6 +142,7 @@ p
 	font-size: 28px;
 	font-weight: bold;
 	text-align: center;
+	font-family: 'Arvo', serif;
 }
 
 .divider
