@@ -1,0 +1,153 @@
+p
+{
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.container
+{
+	width: 1248px;
+	height: 2000px;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.mainHeader
+{
+	width: 100%;
+	height: 175px;
+}
+
+.logoHeader
+{
+	display: flex;
+	flex-direction: row;
+	width: 150px;
+	padding-top: 8px;
+	padding-left: 25px;
+	padding-bottom: 7px;
+	cursor: pointer;
+}
+
+.mainNav
+{
+	margin-top: -50px;
+	margin-left: 500px;
+	margin-bottom: 40px;
+	position: absolute;
+}
+
+.mainNav ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+.mainNav ul li 
+{  
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	cursor: pointer;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.hero
+{
+	width: 1248px;
+	height: 545px;
+	background-image: url(../images/hero_image.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: cover;
+	margin-bottom: 35px;
+	opacity: 0.75;
+	z-index: -1;
+}
+
+.heroTitle
+{
+	width: 1248px;
+	text-align: center;
+	padding-top: 250px;
+}
+
+.heroTitle h2
+{
+	color: #fff;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.about
+{
+	width: 1080px;
+	height: 617px;
+	margin: 0 auto;
+}
+
+.about h3
+{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tasks
+{
+	width: 1080px;
+	height: 417px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.tasks h3
+{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tasks ul
+{
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+.tasks li
+{
+	line-height: 1.6;
+}
+
+.trout
+{
+	width: 1080px;
+	height: 617px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.trout h3
+{
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.divider
+{
+	display: block;
+	margin-top: 12px;
+	margin-bottom: 17px;
+	height: 5px;
+	width: 248px;
+	background-color: #A7BF4E;
+}
